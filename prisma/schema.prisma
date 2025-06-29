@@ -1,0 +1,37 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Producto {
+  id     Int     @id @default(autoincrement()) 
+  nombre String  @unique
+  precio Float   @default(0)
+  ventas Venta[]
+}
+
+model Cliente {
+  id     Int     @id @default(autoincrement()) 
+  nombre String
+  email  String  @unique
+  ventas Venta[]
+}
+
+model Venta {
+  id         Int      @id @default(autoincrement()) 
+  cantidad   Int
+  total      Float
+  
+  cliente    Cliente  @relation(fields: [clienteId], references: [id], onDelete: Cascade)
+  clienteId  Int // Cambiado
+  
+  producto   Producto @relation(fields: [productoId], references: [id], onDelete: Cascade)
+  productoId Int 
+  
+  @@map("ventas")
+}
