@@ -105,12 +105,12 @@ Una vez desplegado, la documentación estará disponible en:
 
 - `GET /` - Health check
 - `GET /api` - Documentación Swagger
-- `GET /productos` - Listar productos
-- `POST /productos` - Crear producto
-- `GET /clientes` - Listar clientes
-- `POST /clientes` - Crear cliente
-- `GET /ventas` - Listar ventas
-- `POST /ventas` - Crear venta
+- `GET /product` - Listar productos
+- `POST /product` - Crear producto
+- `GET /client` - Listar clientes
+- `POST /client` - Crear cliente
+- `GET /venta` - Listar ventas
+- `POST /venta` - Crear venta
 
 ## 🎯 Notas importantes para producción
 
