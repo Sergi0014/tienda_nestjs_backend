@@ -4,14 +4,14 @@ API REST para gestión de tienda con NestJS, Prisma y PostgreSQL.
 
 ##  Características
 
-- ✅ CRUD de productos
-- ✅ CRUD de clientes
-- ✅ Sistema de ventas
-- ✅ Documentación automática con Swagger
-- ✅ Validación de datos con class-validator
-- ✅ Base de datos PostgreSQL con Prisma ORM
-- ✅ Health check endpoint
-- ✅ Configuración para despliegue en Render
+- CRUD de productos
+- CRUD de clientes
+- Sistema de ventas
+- Documentación automática con Swagger
+- Validación de datos con class-validator
+- Base de datos PostgreSQL con Prisma ORM
+- Health check endpoint
+- Configuración para despliegue en Render
 
 ## Requisitos
 
