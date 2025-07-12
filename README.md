@@ -2,7 +2,7 @@
 
 API REST para gestión de tienda con NestJS, Prisma y PostgreSQL.
 
-## 🚀 Características
+##  Características
 
 - ✅ CRUD de productos
 - ✅ CRUD de clientes
@@ -19,7 +19,7 @@ API REST para gestión de tienda con NestJS, Prisma y PostgreSQL.
 - PostgreSQL
 - npm o yarn
 
-## 🛠️ Instalación local
+## Instalación local
 
 1. Clona el repositorio:
 
@@ -54,7 +54,7 @@ npx prisma generate
 npm run start:dev
 ```
 
-## 🌐 Despliegue en Render con Supabase
+## Despliegue en Render con Supabase
 
 ### Paso 1: Preparar repositorio
 
@@ -94,7 +94,7 @@ npm run start:dev
 3. Verifica que `/api` muestre la documentación de Swagger
 4. Verifica que `/` muestre el health check
 
-## 📚 Documentación API
+##  Documentación API
 
 Una vez desplegado, la documentación estará disponible en:
 
@@ -112,7 +112,7 @@ Una vez desplegado, la documentación estará disponible en:
 - `GET /venta` - Listar ventas
 - `POST /venta` - Crear venta
 
-## 🎯 Notas importantes para producción
+##  Notas importantes para producción
 
 1. **Base de datos**: Usa Supabase PostgreSQL (configura `DATABASE_URL` manualmente en Render)
 2. **Puerto**: La aplicación está configurada para usar `process.env.PORT`
@@ -129,7 +129,7 @@ Una vez desplegado, la documentación estará disponible en:
 - `npm run render:start` - Comando de inicio para Render
 - `npm test` - Ejecutar tests
 
-## 🐛 Solución de problemas
+## Solución de problemas
 
 ### Error de conexión a base de datos
 
@@ -146,7 +146,7 @@ Una vez desplegado, la documentación estará disponible en:
 - Verifica que la aplicación esté escuchando en `0.0.0.0` y no solo `localhost`
 - Confirma que el puerto sea `process.env.PORT`
 
-## 📝 Licencia
+##  Licencia
 
 Este proyecto está bajo licencia UNLICENSED.
 
