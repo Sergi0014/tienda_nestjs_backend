@@ -13,7 +13,7 @@ API REST para gestión de tienda con NestJS, Prisma y PostgreSQL.
 - ✅ Health check endpoint
 - ✅ Configuración para despliegue en Render
 
-## 📋 Requisitos
+## Requisitos
 
 - Node.js 18+
 - PostgreSQL
